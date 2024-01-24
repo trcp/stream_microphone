@@ -8,3 +8,14 @@ $ cd catkin_ws/src && catkin_init_workspace
 $ git clone https://github.com/trcp/stream_microphone.git ~/catkin_ws/src/stream_microphone
 $ cd catkin_ws/ && catkin_make
 ```
+
+## RUN
+### PC1
+```bash
+$ rosrun stream_microphone sender_node <DESTINATION IP>
+```
+
+### PC2
+```bash
+$ rosrun stream_microphone receiver_node
+```
