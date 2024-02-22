@@ -3,6 +3,7 @@ This package enables the input of audio data from another computer's microphone 
 
 ## Installation
 ```bash
+$ sudo apt install libpulse-dev
 $ mkdir -p catkin_ws/src
 $ cd catkin_ws/src && catkin_init_workspace
 $ git clone https://github.com/trcp/stream_microphone.git ~/catkin_ws/src/stream_microphone
